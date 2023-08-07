@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="normalize.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-box">
+      <div class="titulo">
+        
+        <p>calc</p>
+        <div>
+        <button class="btn-titulo"></button>
+        <button class="btn-titulo"></button>
+        <button class="btn-titulo"></button>
+      </div>
+        <p class="switch">theme</p>
+      </div>
+      <div class="display">
+        <div class="display_number">0</div>
+      </div>
+      <div class="numb">
+        <div class="numb-style">
+          <div class="numb-container">
+            <button data-action="decimal" id="1" class="design-btn active-btn">1</button>
+            <button data-action="decimal" id="2" class="design-btn active-btn">2</button>
+            <button data-action="decimal" id="3" class="design-btn active-btn">3</button>
+            <button data-action="decimal" id="4" class="design-btn active-btn">4</button>
+            <button data-action="decimal" id="5" class="design-btn active-btn">5</button>
+            <button data-action="decimal" id="6" class="design-btn active-btn">6</button>
+            <button data-action="add"class="design-btn active-btn">+</button>
+            <button data-action="decimal" id="7" class="design-btn active-btn">7</button>
+            <button data-action="decimal" id="8" class="design-btn active-btn">8</button>
+            <button data-action="decimal" id="9" class="design-btn active-btn">9</button>
+            <button data-action="substract" id="-" class="design-btn active-btn">-</button>
+            <button data-action="decimal" id="." class="design-btn active-btn">.</button>
+            <button data-action="0" id="0" class="design-btn active-btn ">0</button>
+            <button data-action="divide"  class="design-btn active-btn">/</button>
+            <button data-action="multiply"  class="design-btn active-btn">x</button>
+            <button data-action="del"  class="design-btn design2-btn active2-btn" style="grid-area: reset;">Del</button>
+            <button data-action="equal"  class="design-btn design3-btn active3-btn" style="grid-area: btn-eq ;">=</button>
+            <button data-action="reset"  class="design-btn design2-btn active2-btn"
+              style="grid-area: btn-reset  ;">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+<script src="rules.js"></script>
+
+
+</html>
